@@ -430,4 +430,3 @@ training:
 - **Discord**: https://discord.gg/YsTYBh6PD9
 - **TorchTitan**: https://github.com/pytorch/torchtitan
 - **Monarch**: https://github.com/meta-pytorch/monarch
-

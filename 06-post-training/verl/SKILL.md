@@ -388,4 +388,3 @@ actor_rollout_ref:
 - **GitHub**: https://github.com/volcengine/verl
 - **Recipes**: https://github.com/verl-project/verl-recipe (DAPO, GSPO, etc.)
 - **Community**: Slack at verl-project
-
