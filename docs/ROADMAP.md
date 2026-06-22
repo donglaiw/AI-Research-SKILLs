@@ -67,7 +67,7 @@ Build the most comprehensive open-source library of AI research skills, enabling
 - ✅ **Constitutional AI** - AI-driven self-improvement via principles
 - ✅ **LlamaGuard** - Safety classifier for LLM inputs/outputs
 - ✅ **NeMo Guardrails** - Programmable guardrails with Colang
-- ✅ **Prompt Guard** - Meta's 86M prompt injection & jailbreak detector
+- ✅ **Prompt Guard** - Meta's 86M prompt injection and jailbreak detector
 
 ### ✅ Phase 7: Distributed Training (COMPLETE - 5 skills)
 **Status**: Major distributed training frameworks covered

@@ -17,7 +17,7 @@
 
 <div align="center">
 
-### **81 Skills Powering AI Research in 2026**
+### **83 Skills Powering AI Research in 2026**
 
 </div>
 
@@ -72,7 +72,7 @@ Modern AI research requires mastering dozens of specialized tools and frameworks
 AI Researchers spend more time debugging infrastructure than testing hypotheses—slowing the pace of scientific discovery. 
 We provide a comprehensive library of expert-level research engineering skills that enable AI agents to autonomously implement and execute different stages of AI research experiments—from data preparation and model training to evaluation and deployment.
   - Specialized Expertise - Each skill provides deep, production-ready knowledge of a specific framework (Megatron-LM, vLLM, TRL, etc.)
-  - End-to-End Coverage - 81 skills spanning model architecture, tokenization, fine-tuning, mechanistic interpretability, data processing, post-training, distributed training, optimization, evaluation, inference, infrastructure, agents, RAG, multimodal, prompt engineering, MLOps, observability, emerging techniques, and ML paper writing
+  - End-to-End Coverage - 83 skills spanning model architecture, tokenization, fine-tuning, mechanistic interpretability, data processing, post-training, distributed training, optimization, evaluation, inference, infrastructure, agents, RAG, multimodal, prompt engineering, MLOps, observability, emerging techniques, and ML paper writing
   - Research-Grade Quality - Documentation sourced from official repos, real GitHub issues, and battle-tested production workflows
 
 ## Available AI Research Engineering Skills
@@ -137,29 +137,32 @@ Install skill categories directly using the **Claude Code CLI**:
 /plugin install optimization@ai-research-skills
 ```
 
-**All 20 Categories**:
-| Category | Install Command | Skills Included |
-|----------|-----------------|-----------------|
-| Model Architecture | `model-architecture@ai-research-skills` | LitGPT, Mamba, NanoGPT, RWKV |
-| Tokenization | `tokenization@ai-research-skills` | HuggingFace Tokenizers, SentencePiece |
-| Fine-Tuning | `fine-tuning@ai-research-skills` | Axolotl, LLaMA-Factory, PEFT, Unsloth |
-| Mech Interp | `mechanistic-interpretability@ai-research-skills` | TransformerLens, SAELens, pyvene, nnsight |
-| Data Processing | `data-processing@ai-research-skills` | NeMo Curator, Ray Data |
-| Post-Training | `post-training@ai-research-skills` | TRL, GRPO, OpenRLHF, SimPO, verl, slime, miles, torchforge |
-| Safety | `safety-alignment@ai-research-skills` | Constitutional AI, LlamaGuard, NeMo Guardrails |
-| Distributed | `distributed-training@ai-research-skills` | DeepSpeed, FSDP, Accelerate, Megatron, Lightning, Ray Train |
-| Infrastructure | `infrastructure@ai-research-skills` | Modal, Lambda Labs, SkyPilot |
-| Optimization | `optimization@ai-research-skills` | Flash Attention, bitsandbytes, GPTQ, AWQ, HQQ, GGUF |
-| Evaluation | `evaluation@ai-research-skills` | lm-eval-harness, BigCode, NeMo Evaluator |
-| Inference | `inference-serving@ai-research-skills` | vLLM, TensorRT-LLM, llama.cpp, SGLang |
-| MLOps | `mlops@ai-research-skills` | W&B, MLflow, TensorBoard |
-| Agents | `agents@ai-research-skills` | LangChain, LlamaIndex, CrewAI, AutoGPT |
-| RAG | `rag@ai-research-skills` | Chroma, FAISS, Pinecone, Qdrant, Sentence Transformers |
-| Prompt Eng | `prompt-engineering@ai-research-skills` | DSPy, Instructor, Guidance, Outlines |
-| Observability | `observability@ai-research-skills` | LangSmith, Phoenix |
-| Multimodal | `multimodal@ai-research-skills` | CLIP, Whisper, LLaVA, BLIP-2, SAM, Stable Diffusion, AudioCraft |
-| Emerging | `emerging-techniques@ai-research-skills` | MoE, Model Merging, Long Context, Speculative Decoding, Distillation, Pruning |
-| ML Paper Writing | `ml-paper-writing@ai-research-skills` | ML Paper Writing (LaTeX templates, citation verification, writing guides) |
+</details>
+
+### All 20 Categories (83 Skills)
+
+| Category | Skills | Included |
+|----------|--------|----------|
+| Model Architecture | 5 | LitGPT, Mamba, NanoGPT, RWKV, TorchTitan |
+| Tokenization | 2 | HuggingFace Tokenizers, SentencePiece |
+| Fine-Tuning | 4 | Axolotl, LLaMA-Factory, PEFT, Unsloth |
+| Mech Interp | 4 | TransformerLens, SAELens, pyvene, nnsight |
+| Data Processing | 2 | NeMo Curator, Ray Data |
+| Post-Training | 8 | TRL, GRPO, OpenRLHF, SimPO, verl, slime, miles, torchforge |
+| Safety | 4 | Constitutional AI, LlamaGuard, NeMo Guardrails, Prompt Guard |
+| Distributed | 6 | DeepSpeed, FSDP, Accelerate, Megatron-Core, Lightning, Ray Train |
+| Infrastructure | 3 | Modal, Lambda Labs, SkyPilot |
+| Optimization | 6 | Flash Attention, bitsandbytes, GPTQ, AWQ, HQQ, GGUF |
+| Evaluation | 3 | lm-eval-harness, BigCode, NeMo Evaluator |
+| Inference | 4 | vLLM, TensorRT-LLM, llama.cpp, SGLang |
+| MLOps | 3 | W&B, MLflow, TensorBoard |
+| Agents | 4 | LangChain, LlamaIndex, CrewAI, AutoGPT |
+| RAG | 5 | Chroma, FAISS, Pinecone, Qdrant, Sentence Transformers |
+| Prompt Eng | 4 | DSPy, Instructor, Guidance, Outlines |
+| Observability | 2 | LangSmith, Phoenix |
+| Multimodal | 7 | CLIP, Whisper, LLaVA, BLIP-2, SAM, Stable Diffusion, AudioCraft |
+| Emerging | 6 | MoE, Model Merging, Long Context, Speculative Decoding, Distillation, Pruning |
+| ML Paper Writing | 1 | ML Paper Writing (LaTeX templates, citation verification) |
 
 ### 🏗️ Model Architecture (5 skills)
 - **[LitGPT](01-model-architecture/litgpt/)** - Lightning AI's 20+ clean LLM implementations with production training recipes (462 lines + 4 refs)
@@ -203,7 +206,7 @@ Install skill categories directly using the **Claude Code CLI**:
 - **[Constitutional AI](07-safety-alignment/constitutional-ai/)** - AI-driven self-improvement via principles (282 lines)
 - **[LlamaGuard](07-safety-alignment/llamaguard/)** - Safety classifier for LLM inputs/outputs (329 lines)
 - **[NeMo Guardrails](07-safety-alignment/nemo-guardrails/)** - Programmable guardrails with Colang (289 lines)
-- **[Prompt Guard](07-safety-alignment/prompt-guard/)** - Meta's 86M prompt injection & jailbreak detector, 99%+ TPR, <2ms GPU (313 lines)
+- **[Prompt Guard](07-safety-alignment/prompt-guard/)** - Meta's 86M prompt injection and jailbreak detector, 99%+ TPR, <2ms GPU latency (312 lines)
 
 ### ⚡ Distributed Training (6 skills)
 - **[Megatron-Core](08-distributed-training/megatron-core/)** - NVIDIA's framework for training 2B-462B param models with 47% MFU on H100 (359 lines + 4 refs)
@@ -300,7 +303,7 @@ Install skill categories directly using the **Claude Code CLI**:
 
 ## Demos
 
-All 81 skills in this repo are automatically synced to [Orchestra Research](https://www.orchestra-research.com/research-skills), where you can add them to your projects with one click and use them with AI research agents.
+All 83 skills in this repo are automatically synced to [Orchestra Research](https://www.orchestra-research.com/research-skills), where you can add them to your projects with one click and use them with AI research agents.
 
 **See skills in action → [demos/](demos/README.md)**
 
@@ -364,7 +367,7 @@ We're building towards 80 comprehensive skills across the full AI research lifec
 
 | Metric | Current | Target |
 |--------|---------|--------|
-| **Skills** | **87** (high-quality, standardized YAML) | 80 ✅ |
+| **Skills** | **83** (high-quality, standardized YAML) | 80 ✅ |
 | **Avg Lines/Skill** | **420 lines** (focused + progressive disclosure) | 200-600 lines |
 | **Documentation** | **~130,000 lines** total (SKILL.md + references) | 100,000+ lines |
 | **Gold Standard Skills** | **65** with comprehensive references | 50+ |
